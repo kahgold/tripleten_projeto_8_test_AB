@@ -76,7 +76,7 @@
 
 **Conclusões**
 **Visão geral do dataframe df_hypotheses:**
-- *O dataframe consiste em cinco colunas:`hypothesis`, `reach`, `impact`, `confidence` e `effort`, com 9 linhas cada, sem diferença significativa entre média e mediana, sem duplicatas, dados faltantes ou valores discrepantes.*
+- *O dataframe consiste em cinco colunas: `hypothesis`, `reach`, `impact`, `confidence` e `effort`, com 9 linhas cada, sem diferença significativa entre média e mediana, sem duplicatas, dados faltantes ou valores discrepantes.*
 
 **Visão geral do dataframe df_orders:**
 - *O dataframe contém cinco colunas: `transaction_id`, `visitor_id`, `date`, `revenue` e `group`, com 1.197 linhas cada, após remover os dados empilhados, agora o dataframe tem 1.016 linhas em cada coluna. As colunas são do tipo int64, datetime64[ns], float64 e object. O nome das colunas `transactionId` e `visitorId` foi alterado, e a coluna `date` foi convertida de objeto para datahora. Não foram encontradas duplicatas, dados ausentes ou valores discrepantes.*
